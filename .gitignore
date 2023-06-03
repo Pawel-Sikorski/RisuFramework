@@ -1,0 +1,40 @@
+# Compiled object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+
+# Compiled executables
+*.exe
+*.out
+
+# Visual Studio Code specific files
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Other generated or temporary files
+*.swp
+.DS_Store
+
+# Build directories
+/build/
+/bin/
+/lib/
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Exclude everything inside the third-party folder
+!third-party/**
