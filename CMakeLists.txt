@@ -7,7 +7,11 @@ set(PROJECT_VERSION 0.1.0)
 
 # Set the source files for the project
 set(SOURCES
-    src/main.cpp
+    src/Main.cpp
+    src/core/graphics/Window.cpp
+    src/core/graphics/Graphics.cpp
+    src/core/logic/RisuProject.cpp
+    src/game/Game.cpp
     # Add more source files here
 )
 
