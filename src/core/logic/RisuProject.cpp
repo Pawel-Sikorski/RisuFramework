@@ -12,14 +12,6 @@ RisuProject::~RisuProject()
 {
 }
 
-void RisuProject::Initialize()
-{
-}
-
-void RisuProject::CleanUp()
-{
-}
-
 void RisuProject::Run()
 {
     graphics.BeginFrame();

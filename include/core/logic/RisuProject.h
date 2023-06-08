@@ -9,16 +9,19 @@ public:
     RisuProject(class Window &wnd, class Graphics &gfx);
     ~RisuProject();
 
-    virtual void Initialize();
-    virtual void Run();
-    virtual void HandleInput();
-    virtual void UpdateLogic();
-    virtual void UpdateGraphics();
-    virtual void CleanUp();
+    void Run();
+
+protected:
+    virtual void Initialize() = 0;
+    virtual void HandleInput() = 0;
+    virtual void UpdateLogic() = 0;
+    virtual void UpdateGraphics() = 0;
+    virtual void CleanUp() = 0;
 
 private:
     class Window& window;
     class Graphics& graphics;
+
 };
 
 #endif
