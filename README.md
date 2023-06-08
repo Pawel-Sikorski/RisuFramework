@@ -12,11 +12,3 @@ Key Features:
 Whether you're a beginner or an experienced game developer, RisuFramework aims to streamline the development process and empower you to focus on creating engaging gameplay experiences.
 
 Get started with game development using RisuFramework today and unleash your creativity!
-
-## License
-
-RisuFramework is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-You are free to use, modify, and distribute this framework for both personal and commercial purposes. However, I kindly request that you provide attribution by mentioning RisuFramework and linking back to the repository.
-
-For more information, please see the [LICENSE](LICENSE) file.
